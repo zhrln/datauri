@@ -1,0 +1,24 @@
+{
+  "name": "datauri",
+  "version": "1.0.0",
+  "description": "生成datauri的工具",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhrln/datauri.git"
+  },
+  "keywords": [
+    "datauri",
+    "base64",
+    "nodejs"
+  ],
+  "author": "zhangrui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhrln/datauri/issues"
+  },
+  "homepage": "https://github.com/zhrln/datauri#readme"
+}
