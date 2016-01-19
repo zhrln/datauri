@@ -4,7 +4,7 @@
 
 var help = require('commander');
 
-var lib = require('./lib');
+var lib = require('./');
 
 //noinspection JSCheckFunctionSignatures
 help
@@ -27,7 +27,7 @@ if(help.url){
         console.log(datauri)
     }, config);
 }else if(help.file){
-    lib.base64FromFile('./lib.js', function(datauri){
+    lib.base64FromFile(help.file, function(datauri){
         console.log(datauri)
     }, config);
 }
