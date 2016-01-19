@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zhrln/datauri/issues"
   },
-  "homepage": "https://github.com/zhrln/datauri#readme"
+  "homepage": "https://github.com/zhrln/datauri#readme",
+  "dependencies": {
+    "mime": "^1.3.4"
+  }
 }
