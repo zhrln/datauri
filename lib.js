@@ -14,10 +14,12 @@ function base64Image(filename, _mime){
 }
 
 function base64FromFile(src, cb, config){
-    cb && cb(base64Image(src, config.mime));
+    config = config || {};
+    cb && cb(base64Image(src, config.mime || ''));
 }
 
 function base64FromURL(src, cb, config){
+    config = config || {};
     download(src, function(err, path){
         !err && cb && cb(base64Image(path, config.mime || mime.lookup(url.parse(src).pathname)));
     });
