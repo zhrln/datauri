@@ -43,5 +43,6 @@ function download(url, cb){
 
 }
 
+exports.base64ImageSync = base64Image;
 exports.base64FromFile = base64FromFile;
 exports.base64FromURL = base64FromURL;
