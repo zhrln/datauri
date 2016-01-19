@@ -15,7 +15,7 @@
     "base64",
     "nodejs"
   ],
-  "author": "ngaamging",
+  "author": "zhangrui",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhrln/datauri/issues"
