@@ -1,6 +1,6 @@
 {
   "name": "ngm-datauri",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "生成datauri的工具",
   "main": "lib.js",
   "scripts": {
